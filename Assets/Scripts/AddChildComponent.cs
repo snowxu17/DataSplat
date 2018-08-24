@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//// Add component rigibody, transform and scale to cartoon objects childed under shadowPlanePrefab.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Lean.Touch;

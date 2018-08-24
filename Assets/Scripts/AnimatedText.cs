@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿//// Typing animaton for text strings (e.g. "loading" and "welcome to the world of Rugrats...", etc.)
+
+
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 

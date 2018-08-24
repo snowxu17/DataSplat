@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿//// Manage all UIs.
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,7 +13,6 @@ public class UIManager : MonoBehaviour {
     public Button placeObjectButton;
     public Button restartButton;
     public Button switchButton;
-    public Button detectButton;
     public Dropdown s_Dropdown;
     public Dropdown e_Dropdown;
     public Button showDropdown;
@@ -35,8 +37,6 @@ public class UIManager : MonoBehaviour {
         return ui;
     }
 
-    //for test
-    public int plnCt;
 
     private void Awake ()
     {      
@@ -85,14 +85,9 @@ public class UIManager : MonoBehaviour {
     }
 
 
-    //public void OnClickShowDetectButton()
-    //{
-    //    detectButton.gameObject.SetActive(true);
-    //}
 
     public void OnClickDestroy(GameObject tapGuide, GameObject pinchGuide)
     {      
-        //detectButton.gameObject.SetActive(false);
         tapGuide.SetActive(false);
         pinchGuide.SetActive(true);
 
@@ -105,8 +100,6 @@ public class UIManager : MonoBehaviour {
 
     void Update ()
     {
-
-        plnCt = ManagerScript.arKitPlaneRenderers.Count;
 
         timeLeft -= Time.deltaTime;
         //Debug.Log(timeLeft);
@@ -123,14 +116,8 @@ public class UIManager : MonoBehaviour {
             //restartButton.gameObject.SetActive(false);
             switchButton.gameObject.SetActive(false);
             showDropdown.gameObject.SetActive(false);
-            //detectButton.gameObject.SetActive(false);
         }
      
-
-        //if(plnCt > 0)
-        //{
-        //    scanButton.gameObject.SetActive(false);
-        //}
 
         // Show UI bottons after reset button is off
         if (scanButton.isActiveAndEnabled == false)
@@ -138,7 +125,6 @@ public class UIManager : MonoBehaviour {
             if (ht.isDetecting == true)
             {
                 tapGuide.gameObject.SetActive(true);
-                //detectButton.gameObject.SetActive(true);
             }
             
             if (ht.isDetecting == false)

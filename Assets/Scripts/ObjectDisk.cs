@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//// Controls animator for rainbow disk opening and closing when objects are selected and de-selected.
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Lean.Touch;

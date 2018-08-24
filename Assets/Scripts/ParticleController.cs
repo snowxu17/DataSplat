@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//// Trigger particle system when cartoon world is first placed on AR plane. 
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.iOS;

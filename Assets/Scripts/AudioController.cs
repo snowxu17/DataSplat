@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿//// Play sound when world is placed.
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.iOS;

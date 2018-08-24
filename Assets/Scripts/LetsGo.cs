@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿//// Show LETSGO button and load scene in scene AR_LETSGO.
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

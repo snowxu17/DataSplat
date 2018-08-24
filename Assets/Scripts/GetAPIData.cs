@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿//// Request Facebook share counts data from CrowdTangle API. Controls data-related UIs. 
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;

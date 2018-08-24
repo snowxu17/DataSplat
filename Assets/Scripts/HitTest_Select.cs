@@ -1,4 +1,6 @@
-﻿using System;
+﻿//// Place cartoon worlds when tap detected AR planes. Toggle on/off selectable features of scene objects. 
+
+using System;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;

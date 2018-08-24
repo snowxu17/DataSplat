@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿//// Disable floor & wall renderers before world is placed; enable floor & wall renderers after world is placed .
+
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
