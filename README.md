@@ -1,5 +1,5 @@
 # DataSplat! #
-DataSplat! is an iOS AR app that offers interactive and playful data visualization of social media sentiment about old Nicklodeon cartoons Rugrats and Hey Arnold!.
+DataSplat! is an iOS AR app that offers interactive and playful data visualization of social media sentiment about old Nicklodeon cartoons. It uses CrowdTangle API to pull analytics about Facebook engagement related to Rugrats and Hey Arnold!.
 DataSplat! is created at Viacom Experience Room using Unity3D and ARKit 1.5.
 
 ## Supporting Features: ##
