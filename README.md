@@ -3,6 +3,22 @@
 DataSplat! is an iOS AR app that offers interactive and playful data visualization of social media sentiment about old Nicklodeon cartoons Rugrats and Hey Arnold!.<br />
 DataSplat! is created at Viacom Experience Room using Unity3D and ARKit 1.5.<br /> 
 
+## Supporting Features: ##
+* AR exploration
+* Facebook engagement data activated objects
+* Flexible analytics time range
+* Interactable objects
+* World switching
+
+## Future Potential: ##
+* Un-lockable
+* Sharing
+* More social media platforms
+
+## To Build: ##
+* Build scene Rugrats, Arnold and AR_LETSGO for platform iOS. Run .xcodeproj file in xcode with optimal built setting. 
+* DataSplat/0823_bigIcon_iOSBuild/ is built for DataSplat! demo.
+
 
 
 # Unity-ARKit-Plugin #
